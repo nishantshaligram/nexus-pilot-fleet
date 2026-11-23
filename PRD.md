@@ -24,7 +24,7 @@ Current AI coding tools operate like a single developer sitting at a single keyb
 flowchart TD
     subgraph NexusPilotSuite["NexusPilot Antigravity Suite"]
         NP_Desktop["NexusPilot: Desktop<br/><b>The Hands</b><br/>• Computer-Use & Vision<br/>• Windows UIA & OS Control<br/>• Interactive Foreground HUD"]
-        NP_Cortex["NexusPilot: Cortex<br/><b>The Brain & Governor</b><br/>• Token Telemetry Badges<br/>• Persistent Memory (claude-mem)<br/>• Context Compression (headroom)"]
+        NP_Cortex["NexusPilot: Cortex<br/><b>The Brain & Governor</b><br/>• Token Telemetry Badges<br/>• Persistent Memory (NexusMem)<br/>• Context Compression (capacity)"]
         NP_Fleet["NexusPilot: Fleet<br/><b>The Grid & Mission Control</b><br/>• Distributed Swarm Orchestrator<br/>• Zero-Collision Git Worktrees<br/>• DAG Pipeline Scheduler<br/>• Two-Key Peer Consensus"]
     end
 
