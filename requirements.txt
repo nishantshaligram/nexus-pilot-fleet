@@ -1,0 +1,3 @@
+# NexusPilot Fleet requires standard library Python (3.10+) with zero required external dependencies.
+# Optional enhancements:
+pytest>=7.0.0

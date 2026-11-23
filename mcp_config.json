@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "nexus-pilot-fleet": {
+      "command": "python",
+      "args": ["${PLUGIN_ROOT}/server/fleet_server.py"],
+      "description": "NexusPilot Fleet Distributed Swarm Orchestrator & Worktree Multiplexer"
+    }
+  }
+}

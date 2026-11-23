@@ -1,0 +1,53 @@
+{
+  "name": "nexus-pilot-fleet",
+  "version": "1.0.0",
+  "description": "Distributed Multi-Agent Swarm Orchestrator, Git Worktree Multiplexer & DAG Pipeline Engine for AI Coding Agents",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "nexus-pilot-fleet": "./bin/nexus-pilot-fleet.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "server",
+    "rules",
+    "skills",
+    "assets",
+    "plugin.json",
+    "mcp_config.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node ./bin/nexus-pilot-fleet.js",
+    "serve": "node ./bin/nexus-pilot-fleet.js serve",
+    "install:agents": "node ./bin/nexus-pilot-fleet.js install",
+    "doctor": "node ./bin/nexus-pilot-fleet.js doctor",
+    "test": "python tests/run_tests.py"
+  },
+  "keywords": [
+    "ai-agent",
+    "multi-agent",
+    "swarm",
+    "swarm-orchestrator",
+    "mcp",
+    "model-context-protocol",
+    "git-worktree",
+    "dag-scheduler",
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "windsurf"
+  ],
+  "author": "Nishant Shaligram <nishant.shaligram@gmail.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nishantshaligram/nexus-pilot-fleet.git"
+  },
+  "homepage": "https://github.com/nishantshaligram/nexus-pilot-fleet",
+  "bugs": {
+    "url": "https://github.com/nishantshaligram/nexus-pilot-fleet/issues"
+  }
+}
