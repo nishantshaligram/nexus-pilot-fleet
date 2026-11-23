@@ -1,0 +1,26 @@
+# NexusPilot Fleet Documentation
+
+> Distributed Multi-Agent Swarm Orchestrator, Git Worktree Multiplexer & DAG Pipeline Engine for AI Coding Agents.
+
+## Overview
+NexusPilot Fleet is an open-source MCP suite and Google Antigravity plugin providing:
+1. DAG Pipeline Engine for decomposing massive refactorings into parallel tasks.
+2. Zero-collision git worktree multiplexing (.fleet/worktrees/worker-<id>).
+3. Two-Key Consensus Protocol (Author -> Reviewer -> Verifier).
+4. Shared Blackboard and inter-agent SQLite event bus (.fleet/fleet_bus.db).
+
+## Key Links
+- GitHub: https://github.com/nishantshaligram/nexus-pilot-fleet
+- MCP Tools Catalog: https://nishantshaligram.github.io/nexus-pilot-fleet/reference/mcp-tools
+- Quickstart Guide: https://nishantshaligram.github.io/nexus-pilot-fleet/getting-started/quickstart
+
+## MCP Tools Reference
+- `create_mission(goal, base_branch)`: Initializes mission and provisions squad.
+- `decompose_goal(mission_id, goal)`: Breaks mission into topologically sorted DAG nodes.
+- `dispatch_ready_tasks(mission_id)`: Provisions worktrees and dispatches ready tasks.
+- `submit_task_for_review(task_id, worker_id, summary)`: Submits draft for review.
+- `approve_review_key1(task_id, reviewer_id, notes)`: Grants Key 1 (Architecture).
+- `verify_tests_key2(task_id, verifier_id, test_summary)`: Grants Key 2 (Tests).
+- `merge_task_worktree(mission_id, task_id)`: Merges verified branch and cleans worktree.
+- `broadcast_to_blackboard(mission_id, topic, content)`: Publishes shared fact.
+- `query_blackboard(mission_id, topic)`: Queries shared blackboard facts.

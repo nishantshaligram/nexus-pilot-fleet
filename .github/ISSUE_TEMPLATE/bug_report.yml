@@ -1,0 +1,52 @@
+name: 🐛 Bug Report
+description: File a bug report to help improve NexusPilot Fleet
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue! Please verify you are running the latest version.
+  - type: input
+    id: version
+    attributes:
+      label: NexusPilot Fleet Version
+      description: What version are you running? (Run `npx nexus-pilot-fleet --version`)
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Target Environment
+      options:
+        - Google Antigravity
+        - Claude Desktop / Code CLI
+        - Cursor IDE
+        - Windsurf
+        - Standalone MCP
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the issue.
+      placeholder: |
+        1. Run `...`
+        2. Dispatch task `...`
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Output & Logs
+      description: Relevant terminal outputs, error traces, or diagnostic dumps.
+      render: shell

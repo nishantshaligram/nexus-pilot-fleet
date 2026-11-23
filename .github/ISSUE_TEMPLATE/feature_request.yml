@@ -1,0 +1,27 @@
+name: 💡 Feature Request
+description: Propose a new feature, DAG scheduling strategy, or consensus protocol for Fleet
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest an idea for NexusPilot Fleet.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Motivation
+      description: Is your feature request related to a problem or multi-agent orchestration bottleneck?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: Describe how you envision this working.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you've explored.

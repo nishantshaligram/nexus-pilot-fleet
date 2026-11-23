@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nishantshaligram.github.io/nexus-pilot-fleet/sitemap.xml
