@@ -13,7 +13,7 @@
 
 ## 🌟 Overview
 
-`NexusPilot: Fleet` is the **Distributed Swarm Orchestrator and Mission Control** for AI coding agents. While **NexusPilot Desktop** provides the hands (GUI & computer-use) and **NexusPilot Cortex** acts as the cognitive brain (memory & telemetry), **Fleet** serves as the **Command & Control grid**—enabling 5 to 30+ autonomous worker agents to collaborate concurrently on large-scale refactoring, migrations, and test generation without file collisions or merge contention.
+`NexusPilot: Fleet` is the **Distributed Swarm Orchestrator and Mission Control** for AI coding agents. While **NexusPilot: Desktop** provides the hands (GUI & computer-use) and **NexusPilot Cortex** acts as the cognitive brain (memory & telemetry), **Fleet** serves as the **Command & Control grid**—enabling 5 to 30+ autonomous worker agents to collaborate concurrently on large-scale refactoring, migrations, and test generation without file collisions or merge contention.
 
 ```
                        COGNITIVE (Brain)
@@ -153,7 +153,7 @@ NexusPilot Fleet is the distributed multi-agent command grid of the modular **Ne
 
 | Component | Role | GitHub Repository | Description |
 | :--- | :--- | :--- | :--- |
-| 🖥️ **NexusPilot Desktop** | **The Hands** | [`nishantshaligram/NexusPilot`](https://github.com/nishantshaligram/NexusPilot) | Universal Windows UI Automation, dual-modal perception, mouse actuation & foreground visual HUD. |
+| 🖥️ **NexusPilot: Desktop** | **The Hands** | [`nishantshaligram/nexus-pilot-desktop`](https://github.com/nishantshaligram/nexus-pilot-desktop) | Universal Windows UI Automation, dual-modal perception, mouse actuation & foreground visual HUD. |
 | 🧠 **NexusPilot Cortex** | **The Brain** | [`nishantshaligram/nexus-pilot-cortex`](https://github.com/nishantshaligram/nexus-pilot-cortex) | Cognitive telemetry badging, persistent long-term memory (NexusMem), and adaptive context compression. |
 | ⚡ **NexusPilot Fleet** | **The Grid** | [`nishantshaligram/nexus-pilot-fleet`](https://github.com/nishantshaligram/nexus-pilot-fleet) | Distributed multi-agent swarm orchestrator, zero-collision Git worktree multiplexing, DAG scheduling & Two-Key consensus. |
 | 📊 **NexusPilot Benchmarks** | **Validation** | [`nishantshaligram/nexus-pilot-benchmarks`](https://github.com/nishantshaligram/nexus-pilot-benchmarks) | Reproducible empirical benchmark harness and competitive leaderboard against industry baselines. |
