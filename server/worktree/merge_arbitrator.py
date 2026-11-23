@@ -38,6 +38,7 @@ class MergeArbitrator:
         
         if merge_res.returncode == 0:
             return {
+                "success": True,
                 "status": "MERGED",
                 "worker_branch": worker_branch,
                 "integration_branch": integration_branch,
@@ -49,6 +50,7 @@ class MergeArbitrator:
             # Abort raw merge to avoid dirtying tree
             self._run_git(["merge", "--abort"])
             return {
+                "success": False,
                 "status": "CONFLICT",
                 "worker_branch": worker_branch,
                 "integration_branch": integration_branch,
@@ -56,6 +58,7 @@ class MergeArbitrator:
             }
 
         return {
+            "success": False,
             "status": "FAILED",
             "worker_branch": worker_branch,
             "integration_branch": integration_branch,
