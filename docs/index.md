@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: "NexusPilot Fleet"
+  name: "NexusPilot: Fleet"
   text: "Distributed Multi-Agent Swarm Orchestrator"
   tagline: "Zero-collision git worktrees, DAG pipeline scheduling, and two-key consensus review for AI agent armadas."
   image:
     src: /assets/logo.svg
-    alt: NexusPilot Fleet Logo
+    alt: "NexusPilot: Fleet Logo"
   actions:
     - theme: brand
       text: Get Started
